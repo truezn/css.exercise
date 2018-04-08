@@ -21,10 +21,12 @@
     background-color: yellow;
 }
 
+/*two layout*/
+
 #content .main {
     height: 200px;
     background-color: red;
-    overflow:auto
+    overflow: auto
 
 }
 
@@ -33,4 +35,29 @@
     height: 200px;
     background-color: green;
     float: left;
+}
+
+/*fixed width and height center position*/
+#center {
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+/*non-fixed center position*/
+table {
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+/*horizon and vertical center*/
+.winmiddle {
+    width:300px;
+    height:200px;
+    background-color:purple;
+    position:absolute;
+    left: 50%;
+    top:50%;
+    margin:-100px 0 0 -150px;
 }
